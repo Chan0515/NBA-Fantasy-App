@@ -1,0 +1,39 @@
+.textBox{
+    display: flexbox;
+    position: relative;
+    border: black;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    width: 350px;
+    height: 350px;
+    padding: 5px 25px 5px 25px;
+    margin-left:auto;
+    margin-right:auto;
+    left:0;
+    right:0;
+  }
+  p.leftAlign{
+      text-align: justify;
+      text-indent: 2rem;
+  }
+  p.bold{
+    text-align: center;
+    text-indent: 0;
+  }
+  #buttonContainer{
+    position: absolute;
+    margin-left:auto;
+    margin-right:auto;
+    left:0;
+    right:0;
+    bottom: 30px;
+  }
+  #libContainer{
+    position: absolute;
+    margin-left:auto;
+    margin-right:auto;
+    left:0;
+    right:0;
+    bottom: 70px;
+  }
