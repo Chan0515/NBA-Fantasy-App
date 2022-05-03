@@ -1,0 +1,25 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+body{
+  margin-top: 50px;
+  z-index:2;
+}
+.table-settings{
+  border: none;
+  padding-bottom: 10px;
+}
+.content{
+  text-align: center;
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+div.center{
+  padding-top: 15%;
+  display: block;
+  width: 200px;
+  margin-left:auto;
+  margin-right: auto;
+}

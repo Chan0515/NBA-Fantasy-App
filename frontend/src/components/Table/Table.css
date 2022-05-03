@@ -1,0 +1,107 @@
+table{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px 5px 10px 5px;
+    border-collapse: collapse;
+    
+}
+th,td{
+    padding: 5px 5px 5px 5px;
+    border: 1px solid;
+    line-height: 13px;
+    white-space:nowrap;
+}
+td.table-settings{
+  border: 0px;
+  padding-top: 10px;
+}
+
+.close-btn{
+    align-items: right;
+}
+.pagination{
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+/* Popup container */
+.popup {
+    position: absolute;
+    display: inline-block;
+    cursor: pointer;
+    top: 10%;
+    left: 50%;
+    opacity: 98%;
+  }
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+  visibility: show;
+  width: 160px;
+  background-color: #ebe7ff;
+  color: rgb(0, 0, 0);
+  text-align: left;
+  border-radius: 6px;
+  padding: 8px;
+  position: absolute;
+  z-index: 1;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+.fa-chevron-down{
+  color:  rgb(0, 38, 255);
+  margin-left: 10px;
+  line-height: 0px;
+}
+.fa-chevron-up{
+  color: rgb(0, 38, 255);
+  margin-left: 10px;
+  line-height: 0px;
+}
+.MuiDialog-paper{
+  padding: 15px;
+}
+p.table-settings{
+  margin-top:0px;
+  text-indent: 40px;
+  max-width: 600px;
+  margin:auto;
+  padding: 15px;
+}
+h2{
+  text-align:center;
+}
+.note{
+  text-align: center;
+  margin:2px;
+  font-style:italic;
+}
