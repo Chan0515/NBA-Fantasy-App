@@ -1,8 +1,7 @@
 {
   "name": "frontend",
+  "homepage": "https://chan0515.github.io/NBA-Fantasy-App/",
   "version": "0.1.0",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.8.2",
