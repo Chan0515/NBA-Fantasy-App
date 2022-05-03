@@ -11,7 +11,7 @@ export default function NBA() {
     const [zL30, setzL30] = useState(null)
     const [zL7, setzL7] = useState(null)
     const [activeData,setData] =  useState(null)
-    const URL = window.location.origin === "http://localhost:3000" ? "http://127.0.0.1:8000" : window.location.origin
+    const URL = "https://chan0515.herokuapp.com"
     
     
     useEffect(() => {
