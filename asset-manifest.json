@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.11c58573.css",
-    "main.js": "/static/js/main.2a291e29.js",
-    "static/media/spin.gif": "/static/media/spin.7be5a241fc06cfa3cd69.gif",
-    "index.html": "/index.html",
-    "main.11c58573.css.map": "/static/css/main.11c58573.css.map",
-    "main.2a291e29.js.map": "/static/js/main.2a291e29.js.map"
+    "main.css": "/NBA-Fantasy-App/static/css/main.11c58573.css",
+    "main.js": "/NBA-Fantasy-App/static/js/main.6851a9c0.js",
+    "static/media/spin.gif": "/NBA-Fantasy-App/static/media/spin.7be5a241fc06cfa3cd69.gif",
+    "index.html": "/NBA-Fantasy-App/index.html",
+    "main.11c58573.css.map": "/NBA-Fantasy-App/static/css/main.11c58573.css.map",
+    "main.6851a9c0.js.map": "/NBA-Fantasy-App/static/js/main.6851a9c0.js.map"
   },
   "entrypoints": [
     "static/css/main.11c58573.css",
-    "static/js/main.2a291e29.js"
+    "static/js/main.6851a9c0.js"
   ]
 }
