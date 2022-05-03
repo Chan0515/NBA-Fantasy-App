@@ -11,7 +11,7 @@ export default function NBA() {
     const [zL30, setzL30] = useState(null)
     const [zL7, setzL7] = useState(null)
     const [activeData,setData] =  useState(null)
-    const URL = "https://chan0515.herokuapp.com/"
+    const URL = "https://chan0515.herokuapp.com"
     
     
     useEffect(() => {
