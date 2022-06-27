@@ -86,6 +86,7 @@ export default function NBA() {
     } else {
         return (
           <div className="center">
+            Please allow up to 1 minute for database host to boot.
             <img className="center" src={loading}/>
           </div>     
         )   
